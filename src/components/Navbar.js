@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 import "./Navbar.css"; 
 import logo from "../assets/SUSTAINA.jpg"; 
 
@@ -19,10 +19,7 @@ const Navbar = () => {
         <h1>SustainaSphere</h1>
       </div>
 
-      <div className={`nav-links ${isOpen ? "open" : ""}`}>
-        <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
-      </div> 
-
+      
     </nav>
   );
 };
